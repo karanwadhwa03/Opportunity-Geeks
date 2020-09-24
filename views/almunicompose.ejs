@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <title>
+      pubg
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css" />
+  </head>
+
+
+<body>
+
+
+<!--NAVBAR-->
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">OPPURTUNITY GEEKS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown active ">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Almuni
+            </a>
+            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/almunifeed">Feed</a>
+              <a class="dropdown-item active" href="/almunicompose">Compose</a>
+              
+            </div>
+          </li>
+
+
+        <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu  " aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/eventfeed">Feed</a>
+              <a class="dropdown-item" href="/eventcompose">Compose</a>
+              
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Scholarships
+            </a>
+            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/scholarfeed">Feed</a>
+              <a class="dropdown-item" href="/scholarcompose">Compose</a>
+              
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/fest">Fest</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="/about">Contact Us</a>
+          </li>
+
+      </ul>
+    </div>
+  </nav>
+
+<!--NAVBAR-->
+<br>
+<br>
+
+<!--COMPOSE-->
+
+<form class="formalmuni" action="/almunicompose1" method="POST">
+    <div class="form-group">
+        <label for="exampleInputEmail1">NAME</label>
+        <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Enter YOUR NAME" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">PHONE NO</label>
+        <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Enter YOUR Phone no." name="no" required>
+      </div>
+    
+    <div class="form-group">
+      <label for="exampleInputEmail1">TITLE</label>
+      <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Enter Title" name="title" required>
+    </div>
+    <div class="form-group">
+      <label for="des">DESCRIPTION</label>
+      <textarea name="description" class="form-control" rows="4" col="50" id="des" placeholder="Describe What U want to Say..." required></textarea> 
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+
+
+
+<!--COMPOSE-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script src="wow.js"></script>
+<script>new WOW().init();</script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+
+
+
+</html>
+
+<style>
+    .formalmuni{
+        width:80%;
+        margin:0 auto;
+    }
+
+    label{
+        font-size: 20px;
+    }
+</style>
